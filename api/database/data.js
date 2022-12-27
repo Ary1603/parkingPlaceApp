@@ -151,7 +151,7 @@ function createRandomParking() {
     exports.parkingDB.push(new exports.Parking_Place(name, address, score, price, type, images, description));
 }
 //Create data set of 50 parking place's
-for (let index = 0; index < 5; index++) {
+for (let index = 0; index < 50; index++) {
     //console.log("******************** Nuevo objeto *****************")
     createRandomParking();
 }
