@@ -1,0 +1,125 @@
+.principal-container-individual-card{
+    /* background-color: aqua; */
+    width: 98vw;
+    display: flex;
+}
+
+.name-images-container{
+    margin-top: 70px;
+}
+
+.parking-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images-carrousel{
+    width: 700px ;
+}
+
+.description-container{
+    /* background-color: bisque; */
+    width: 50%;
+    margin-left: 2%;
+}
+
+.btn-delete-parking-place{
+    margin-top: 3%;
+    margin-left: 91%;
+}
+
+.score-price-container-individualCard{
+    display: flex;
+    gap: 5%;
+    margin-top: 3%;
+    justify-content: end;
+}
+.price-score-individual-card{
+    text-align: center;
+}
+
+
+
+.amenities-individual-card-title{
+    padding-top: 4%;
+}
+
+
+
+.amenities-individual-card-title, .form-input-title{
+    font-size: 20px;
+}
+
+
+.name-email-totalCars-form-input{
+    margin-left: 2%;
+    width: 50%;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    margin-bottom: 2%;
+}
+
+.date-input-form{
+    width: 20%;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    margin-bottom: 2%;
+}
+
+.btn-create-reservation{
+    margin: 3% 40%;
+}
+
+/*Responsive*/
+@media screen and (max-width: 769px){
+
+    .principal-container-individual-card{
+        display: block;
+    }
+    .images-carrousel {
+        width: 85vw;
+        margin: 20px 3%;
+    }
+
+    .description-container{
+        width: 80vw;
+        margin: 10px 5%;
+    }
+
+    .score-price-container-individualCard {
+        font-weight: 100;
+    }
+
+    .street-name-parking-place{
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .amenities-card{
+        font-size: 11px;
+    }
+
+    .form-input-title{
+        padding-top: 12px;
+        font-size: 12px;
+    }
+
+    .name-email-totalCars-form-input{
+        width: 100px;
+        height: 16px;
+        font-size: 10px
+    }
+
+    .date-input-form{
+        width: 80px;
+        height: 16px;
+        font-size: 10px
+    }
+
+    .btn-create-reservation{
+        width: 70%;
+        margin: 3% 16%;
+    }
+    .btn-delete-parking-place{
+        margin-left: 0px;
+    }
+}

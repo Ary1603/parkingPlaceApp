@@ -1,0 +1,67 @@
+.sidebar-container {
+    position: fixed;
+    width: 18vw;
+    height: 600px;
+}
+
+.filters-h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.hr-filters{
+    width: 70%;
+    background-color: black;
+    border: 0.5px solid black;
+    margin: 0px auto;
+}
+
+.filters-title{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.input-type{
+    display: flex;
+    margin-left: 5%;
+}
+
+#type-private{
+    margin-left: 20%;
+}
+
+.amenities-list {
+    list-style: none;
+    padding-left: 2%;
+    width: 70%;
+}
+
+.input-price-per-day > input, .input-price-per-hour > input{
+    width: 30%;
+    margin-left: 8%;
+    text-align: center;
+}
+
+.input-price-per-day, .input-price-per-hour{
+    display: flex;
+}
+
+.price-title{
+    margin-left: 32%;
+    margin-top: 4px;
+}
+
+.price-hr{
+    width: 5%;
+    height: 2px;
+    margin-top: 12px;
+    border: 0.5px solid black;
+    background-color: black;
+    margin-left: 7%;
+}
+
+/* .apply-filters{
+    margin: 0px auto;
+} */

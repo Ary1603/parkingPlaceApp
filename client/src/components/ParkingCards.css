@@ -1,0 +1,163 @@
+.cards-container {
+  width: 82vw;
+  margin-left: 20%;
+  gap: 1%;
+}
+
+.a-cards{
+  width: 570px;
+  text-decoration: none;
+}
+.card {
+  width: 570px;
+  height: 230px;
+  gap: 2%;
+  display: -webkit-inline-box;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  margin-bottom: 2%;
+  
+}
+
+.card-component{
+    padding-left: 0px !important;
+}
+.parking-imgs {
+  width: 220px;
+  height: inherit;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+/* .img{
+  width: 381px;
+} */
+
+
+.card-hedear {
+  display: flex;
+  margin-top: 8%;
+  border-bottom: 2px solid black;
+}
+
+.card-street-name {
+  color: black;
+  font-size: 20px;
+  margin-right: 30px;
+}
+.star {
+  color: black;
+  margin-right: 5px;
+}
+.parking-score {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  right: 2%;
+}
+.amenities-container {
+  color: black;
+    width: 100%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 59% 48%;
+    grid-template-rows: 50% 40%;
+    grid-column-gap: 0%;
+    grid-row-gap: 22%;
+    justify-items: stretch;
+    align-items: start;
+}
+
+.amenitie-icon{
+  color: rgba(66, 66, 173, 0.507);
+    margin-right: 2%;
+}
+
+
+.price-per-hour{
+  color: black;
+    position: absolute;
+    bottom: 0px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 769px){
+  .card-hedear{
+    margin-top: 0px;
+  }
+
+  .sidebar-container {
+    width: 30vw;
+  }
+
+  .cards-container {
+    width: 60vw;
+    margin-left: 33%;
+  }
+
+  .card {
+    width: 492px;
+    height: 173px;
+  }
+
+  .card-street-name {
+    
+    font-size: 13px;}
+
+    .parking-score{
+      font-size: 13px;
+    }
+  
+    .description-container {
+      width: 29vw !important;
+    }
+}
+
+@media screen and (max-width: 426px){
+
+  .cards-container{
+    margin-left: 0px;
+  }
+
+  .card{
+    width: 90vw;
+    height: 80px;
+    margin-bottom: 8%;
+  }
+
+  .sidebar-container{
+    display: none;
+  }
+  .parking-imgs {
+    width: 120px;
+  }
+
+  .card-street-name {
+    
+    font-size: 9px;
+  }
+
+  .parking-score {
+   
+    font-size: 7px;
+  }
+  .amenities-card{
+    font-size: 8px;
+  }
+
+  .price-per-hour{
+    font-size: 8px;
+  }
+
+  p{
+    margin-bottom: 0px;
+  }
+
+  .description-container {
+    width: 42vw !important;
+  }
+
+  .amenities-card{
+    font-size: 8px !important; 
+  }
+}

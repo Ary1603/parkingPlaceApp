@@ -1,0 +1,143 @@
+.general-create-container{
+    display: flex;
+    margin: 0px 5%;
+}
+
+.title-container{
+    margin: 0px 5%;
+}
+
+.create-parking-place-title{
+    font-size: 4.5rem;
+    font-family : sans-serif; 
+}
+
+.create-parking-place-title:nth-child(1){
+    padding-top: 30%;
+}
+
+.form-container{
+    background-color: rgba(183, 192, 221, 0.164);
+    border-radius: 15px;
+    width: 50%;
+    height: 700px;
+    margin-top: 2%;
+    padding-left: 50px;
+}
+/* .title-text-input:nth-child(1){
+    margin-top: 40px;
+    
+} */
+
+.title-text-input{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.score-price-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.text-input{
+    width: 70%;
+    margin-left: 3%;
+    border-radius: 5px;
+    border: 0.5px solid black;
+}
+
+#score-title, #price-title{
+    width: 50px;
+}
+#score-input, #price-input{
+    width: 120px;
+}
+
+#score-input, #price-input{
+    height: 50%;
+}
+
+#score-input{
+    margin-right: 60px;
+}
+
+/*Checkbox type section */
+.checkboxType-container{
+    display: flex;
+    align-items: center;
+    
+}
+#title-type{
+    width: 100px;
+}
+
+.title-type-checkbox{
+    font-size: 18px;
+    margin: 0px 14px;
+}
+
+.amenities-images-container{
+    display: flex;
+}
+ 
+/*Amenities checkbox */
+.amenities-list-create{
+    width: 50%;
+    list-style: none;
+}
+
+/*Upload images container*/
+.uploaded-images-container{
+    margin-left: 12%;
+}
+
+.btn-upload-images{
+    width: 150px;
+}
+
+.btn-create-parking-place{
+    margin: 0px 34%;
+    width: 200px;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 769px){
+    .general-create-container{
+        display: block;
+    }
+
+    .create-parking-place-title {
+        font-size: 1.5rem;
+    }
+
+    .form-container{
+        width: 90vw;
+        padding-left: 0px;
+    }
+
+    .text-input{
+        margin-right: 5px;
+        
+    }
+
+    #score-input,#price-input{
+        margin-right: 2px;
+        width: 60px;
+    }
+
+    .amenities-images-container{
+        display: block;
+    }
+
+    .amenities-list-create{
+        width: 100%;
+    }
+
+    .btn-create-parking-place {
+        margin: 30px 15%;
+        width: 161px;
+    }
+}
