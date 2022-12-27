@@ -1,0 +1,30 @@
+{
+  "name": "parkingwebapp",
+  "version": "1.0.0",
+  "description": "A web app to provide to the user a parking place with specifications that he wants",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon --watch './**/*.ts' --exec ts-node server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -watch",
+    "start": " nodemon server.js "
+  },
+  "author": "Adrian Coronado Hernandez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.17",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@rest-hooks/rest": "^6.2.3",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.29.4",
+    "typescript-require": "^0.3.0"
+  }
+}
