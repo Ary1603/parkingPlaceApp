@@ -10,8 +10,7 @@ const parkingPlace_1 = require("./controllers/parkingPlace");
 //import * as dataAPI from './routes/data'
 const app = (0, express_1.default)();
 const PORT = 3000;
-//Upload routes 
-var data_route = require('./routes/data');
+
 // Middlewares
 app.use(body_parser_1.default.urlencoded({ extended: false }));
 app.use(body_parser_1.default.json());
