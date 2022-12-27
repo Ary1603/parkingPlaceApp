@@ -7,8 +7,7 @@ import  { parkingDB}   from './database/data';
 const app = express(); 
 const PORT:Number=3000;
  
-//Upload routes 
-var data_route = require('./routes/data')
+
 // Middlewares
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());  
